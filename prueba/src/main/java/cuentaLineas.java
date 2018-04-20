@@ -4,9 +4,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 public class cuentaLineas {
-
-    public static void main(String[] args) throws IOException {
-        
+    public void imprimeln() throws IOException{
         RandomAccessFile file = new RandomAccessFile(System.getProperty("user.dir")+"/Archivo01.java", "r");
 
         FileChannel channel = file.getChannel();
@@ -27,7 +25,7 @@ public class cuentaLineas {
 
         channel.close();
         file.close();
-
     }
+
 
 }
