@@ -2,7 +2,6 @@
 * The cuentaLineas program lee un documento y te pasa las lineas de comentario y codigo
 *
 *
-*
 * @author  WorrenGilgamesh
 * @version 1.0
 * @since   2018-04-19 
@@ -37,5 +36,5 @@ public class cuentaLineas {
         file.close();
     }
 
-
+    
 }
