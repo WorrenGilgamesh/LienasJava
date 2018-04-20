@@ -1,9 +1,19 @@
+/**
+* The cuentaLineas program lee un documento y te pasa las lineas de comentario y codigo
+*
+*
+*
+* @author  WorrenGilgamesh
+* @version 1.0
+* @since   2018-04-19 
+*/
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 public class cuentaLineas {
+
     public void imprimeln() throws IOException{
         RandomAccessFile file = new RandomAccessFile(System.getProperty("user.dir")+"/Archivo01.java", "r");
 
